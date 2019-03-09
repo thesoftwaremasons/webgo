@@ -1,0 +1,18 @@
+
+	<html>
+		<head>
+			<title>Hello</title>
+		</head>
+		<body>
+		<ul>
+		{{range .Person}}
+		<li>{{.Firstname}} {{.Surname}}</li>
+		{{end}}
+
+		{{range .Animal}}
+		<li>{{.Name}}</li>
+		{{end}}
+		</ul>
+		</body>
+	</html>
+	
